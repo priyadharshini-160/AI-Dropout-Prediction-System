@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+
+<body>
+<div class="sidebar">
+
+<h2>🎓 AI Dashboard</h2>
+
+<a href="dashboard.html">🏠 Dashboard</a>
+
+<a href="register.html">👨‍🎓 Students</a>
+
+<a href="prediction.html">🤖 Prediction</a>
+
+<a href="counseling.html">💬 Counseling</a>
+
+<a href="report.html">📊 Reports</a>
+
+<a href="index.html">🚪 Logout</a>
+
+</div>
+
+<div class="main">
+
+    <div class="header">
+
+        <h1>AI-Based Dropout Prediction and Counseling System</h1>
+
+        <p>Welcome, Admin 👋</p>
+
+    </div>
+
+   <div class="cards">
+
+    <div class="card">
+        <h2 id="totalStudents">0</h2>
+        <p>Total Students</p>
+    </div>
+
+    <div class="card">
+        <h2 id="highRisk">0</h2>
+        <p>High Risk</p>
+    </div>
+
+    <div class="card">
+        <h2 id="mediumRisk">0</h2>
+        <p>Medium Risk</p>
+    </div>
+
+    <div class="card">
+        <h2 id="lowRisk">0</h2>
+        <p>Low Risk</p>
+    </div>
+
+</div>
+
+    <h2>Registered Students</h2>
+
+    <table>
+
+<tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Department</th>
+    <th>Attendance</th>
+    <th>CGPA</th>
+    <th>Risk</th>
+    <th>Action</th>
+</tr>
+
+<tbody id="studentTable">
+
+</tbody>
+
+</table>
+
+    <div class="buttons">
+
+    <a href="register.html">
+        <button type="button">➕ Add Student</button>
+    </a>
+
+    <a href="prediction.html">
+        <button type="button">🤖 Predict Dropout</button>
+    </a>
+
+    <a href="report.html">
+        <button type="button">📄 View Report</button>
+    </a>
+
+    <a href="index.html">
+        <button type="button">🚪 Logout</button>
+    </a>
+
+    </div>
+
+</div>
+<script src="js/dashboard.js"></script>
+</body>
+
+</html>
