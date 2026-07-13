@@ -1,9 +1,3 @@
-// Logged in user
-let role = localStorage.getItem("role");
-let loggedInUser = localStorage.getItem("loggedInUser");
-
-// Welcome message
-document.getElementById("welcome").innerHTML = "Welcome, " + role + " 👋";
 // Get all registered students
 let students = JSON.parse(localStorage.getItem("students")) || [];
 
@@ -15,10 +9,6 @@ let low = 0;
 const table = document.getElementById("studentTable");
 
 students.forEach(function(student) {
-// Student can see only their own details
-if (role === "Student" && student.email !== loggedInUser) {
-    return;
-}
     let score = 0;
 
     // Calculate score
