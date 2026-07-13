@@ -5,7 +5,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event){
     const email = document.getElementById("email").value;
 
     const password = document.getElementById("password").value;
-    const role = document.getElementById("role").value;
+
     const user = JSON.parse(localStorage.getItem("user"));
 
     if(user == null){
@@ -20,14 +20,11 @@ document.getElementById("loginForm").addEventListener("submit", function(event){
 
     if(email === user.email && password === user.password){
 
-    localStorage.setItem("role", role);
-    localStorage.setItem("loggedInUser", email);
+        alert("Login Successful!");
 
-    alert("Login Successful!");
+        window.location.href = "dashboard.html";
 
-    window.location.href = "dashboard.html";
-
-}
+    }
 
     else{
 
