@@ -15,7 +15,10 @@ let low = 0;
 const table = document.getElementById("studentTable");
 
 students.forEach(function(student) {
-
+// Student can see only their own details
+if (role === "Student" && student.email !== loggedInUser) {
+    return;
+}
     let score = 0;
 
     // Calculate score
