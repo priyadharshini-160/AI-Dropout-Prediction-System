@@ -1,3 +1,9 @@
+// Logged in user
+let role = localStorage.getItem("role");
+let loggedInUser = localStorage.getItem("loggedInUser");
+
+// Welcome message
+document.getElementById("welcome").innerHTML = "Welcome, " + role + " 👋";
 // Get all registered students
 let students = JSON.parse(localStorage.getItem("students")) || [];
 
