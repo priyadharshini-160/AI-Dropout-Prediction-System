@@ -190,37 +190,6 @@ The system displays personalized counseling recommendations.
 Generate and view the student's report.
 
 ---
-
-# 📸 Project Screenshots
-
-> *(Add screenshots here after uploading them to your repository.)*
-
-### 🏠 Home Page
-
-![Home](screenshots/home.png)
-
-### 🔐 Login Page
-
-![Login](screenshots/login.png)
-
-### 📊 Dashboard
-
-![Dashboard](screenshots/dashboard.png)
-
-### 🤖 Prediction Page
-
-![Prediction](screenshots/prediction.png)
-
-### 💡 Counseling Page
-
-![Counseling](screenshots/counseling.png)
-
-### 📄 Report Page
-
-![Report](screenshots/report.png)
-
----
-
 # 🚀 Future Enhancements
 
 🔹 Firebase / MySQL Database Integration
