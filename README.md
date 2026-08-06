@@ -1,13 +1,17 @@
 # 🎓 AI-Based Drop-out Prediction and Counseling System
 
-> 🚀 An intelligent web application that predicts students who are at risk of dropping out and provides personalized counseling recommendations to improve their academic performance.
+🚀 An intelligent web application that predicts students who are at risk of dropping out and provides personalized counseling recommendations to improve their academic performance.
 
-🌐 **Live Demo:**  
-👉 **https://priyadharshini-160.github.io/AI-Dropout-Prediction-System/**
+---
 
+## 🌐 Live Demo
 
-   **Demo Video:**
-  ** https://drive.google.com/file/d/17OaRd7UzlAWWPaxHyla6pts2GcV8egqI/view?usp=sharing/**
+👉 **Project Website:**  
+https://priyadharshini-160.github.io/AI-Dropout-Prediction-System/
+
+🎥 **Demo Video:**  
+https://drive.google.com/file/d/17OaRd7UzlAWWPaxHyla6pts2GcV8egqI/view?usp=sharing
+
 ---
 
 # 📖 Project Overview
@@ -115,7 +119,7 @@ The system predicts the student's dropout risk based on:
 
 # 📂 Project Structure
 
-```
+```text
 AI-Dropout-Prediction-System
 │
 ├── index.html
@@ -127,11 +131,8 @@ AI-Dropout-Prediction-System
 ├── report.html
 │
 ├── css/
-│
 ├── js/
-│
 ├── images/
-│
 └── README.md
 ```
 
@@ -140,19 +141,16 @@ AI-Dropout-Prediction-System
 # ⚙️ How the System Works
 
 ### Step 1️⃣
-
 Register a student by entering academic and personal details.
 
 ⬇️
 
 ### Step 2️⃣
-
 Login to the system.
 
 ⬇️
 
 ### Step 3️⃣
-
 The system evaluates:
 
 - Attendance
@@ -165,13 +163,11 @@ The system evaluates:
 ⬇️
 
 ### Step 4️⃣
-
 The application calculates the student's dropout risk score.
 
 ⬇️
 
 ### Step 5️⃣
-
 The student is classified as:
 
 🟢 Low Risk
@@ -183,16 +179,15 @@ The student is classified as:
 ⬇️
 
 ### Step 6️⃣
-
 The system displays personalized counseling recommendations.
 
 ⬇️
 
 ### Step 7️⃣
-
 Generate and view the student's report.
 
 ---
+
 # 🚀 Future Enhancements
 
 🔹 Firebase / MySQL Database Integration
@@ -235,7 +230,7 @@ Generate and view the student's report.
 
 **Priyadharshini G**
 
-🎓 B.Tech. Computer Science and Business Systems
+🎓 B.E. Computer Science and Business Systems (CSBS)
 
 🏫 VSB Engineering College
 
@@ -245,16 +240,20 @@ Generate and view the student's report.
 
 🚀 **AI-Based Drop-out Prediction and Counseling System**
 
-👉 **https://priyadharshini-160.github.io/AI-Dropout-Prediction-System/**
+🔗 **Project Website:**  
+https://priyadharshini-160.github.io/AI-Dropout-Prediction-System/
+
+🎥 **Demo Video:**  
+https://drive.google.com/file/d/17OaRd7UzlAWWPaxHyla6pts2GcV8egqI/view?usp=sharing
 
 ---
 
-# ⭐ If you like this project
+# ⭐ Support
 
-Please consider giving it a ⭐ on GitHub!
+If you found this project useful, please consider giving it a ⭐ on GitHub. Your support is appreciated!
 
 ---
 
-## 📜 License
+# 📜 License
 
-This project is developed for **educational and academic purposes**.
+This project is developed for educational and academic purposes.
